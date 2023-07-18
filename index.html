@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./icons/checkbox.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="todo">
+        <div class="hide">
+          <div class="hide-button"></div>
+          <span>Hide completed</span>
+        </div>
+        <div class="delete-modal">
+          <div class="delete-modal-content">
+            <p>Are you sure you want to delete?</p>
+            <div>
+              <button class="confirm-button">Yes</button>
+              <button class="reject-button">No</button>
+            </div>
+          </div>
+        </div>
+        <div class="todo-head">
+          <div class="todo-head-input-container">
+            <p>Task</p>
+            <input type="text" placeholder="Write here" />
+          </div>
+          <div class="todo-head-buttons-container">
+            <button class="add-button">Add</button>
+          </div>
+        </div>
+        <div class="todo-body">
+          <div class="welcome-text">
+            <h3>Your life is a blank page. You write on it.</h3>
+            <h2>So start by adding your tasks here.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
